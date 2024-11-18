@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events</title>
+</head>
+
+<body id="demo" onload="myOnLoad()">
+  <h1 id="myH1">Events</h1>
+
+  <form onsubmit="myOnSubmit()">    
+    <input 
+      onchange="myOnChange()"
+      name=""
+      value=""
+      required
+      ></input>
+    <button id="myButton" type="submit" onfocus="myOnFocus()">GUARDAR</button>
+  </form>
+
+  <div 
+    id="div1"
+    class="example" 
+    onmouseover="myOnMouseOver()" 
+    onmouseout="myOnMouseOut()">Primer DIV</div>
+  <div class="example" >Segundo DIV</div>
+  <div id="div3" onclick="myOnClick()">Tercer DIV</div>
+
+  <script src="03htmlevents.js"></script>
+</body>
+
+</html>
