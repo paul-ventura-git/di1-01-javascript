@@ -1,6 +1,9 @@
 // A JavaScript Set is a collection of unique values.
 // Each value can only occur once in a Set.
 // The values can be of any type, primitive values or objects.
+// SETS are OBJECTS
+
+import myData from "../assets/js/database.js";
 
 // Create a Set
 const letters = new Set(["a","b","c"]);
@@ -28,4 +31,10 @@ letters3.add(c);
 
 // If you add equal elements, only the first will be saved:
 letters3.add("a");
-console.log(letters3)
+console.log(letters3);
+
+// sets are objects
+console.log(typeof letters3);
+console.log(letters3 instanceof Set);
+
+console.log(myData);

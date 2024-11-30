@@ -5,4 +5,4 @@ const myData = [
   "Orange",
 ]
 
-export { myData }
+export default myData;
