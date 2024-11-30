@@ -9,8 +9,8 @@ const vehicleOne = {
 myVehicle(vehicleOne);
 
 function myVehicle({type, color, brand, model}) {
-const message = 'My ' + type + ' is a ' + color + ' ' + brand + ' ' + model + '.';
-console.log(message);
+  const message = 'My ' + type + ' is a ' + color + ' ' + brand + ' ' + model + '.';
+  console.log(message);
 }
 
 const vehicleTwo = {
@@ -29,6 +29,6 @@ color: 'red',
 myVehicleTwo(vehicleTwo)
 
 function myVehicleTwo({ model, registration: { state } }) {
-const message = 'My ' + model + ' is registered in ' + state + '.';
-console.log(message);
+  const message = 'My ' + model + ' is registered in ' + state + '.';
+  console.log(message);
 }
