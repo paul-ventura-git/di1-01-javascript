@@ -5,4 +5,14 @@ const myData = [
   "Orange",
 ]
 
-export default myData;
+const myData2 = [
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday"
+]
+
+export default { myData, myData2};

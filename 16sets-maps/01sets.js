@@ -4,6 +4,7 @@
 // SETS are OBJECTS
 
 import myData from "../assets/js/database.js";
+import myData2 from "../assets/js/database.js"
 
 // Create a Set
 const letters = new Set(["a","b","c"]);
@@ -38,3 +39,4 @@ console.log(typeof letters3);
 console.log(letters3 instanceof Set);
 
 console.log(myData);
+console.log(myData2);
