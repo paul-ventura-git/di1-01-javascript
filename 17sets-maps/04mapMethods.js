@@ -46,3 +46,37 @@ console.log(fruits);
 console.log(fruits2.has("apples"));
 
 // 08. Map.forEach()
+
+let text = "";
+fruits2.forEach (function(value, key) {
+  text += key + ' = ' + value + '; ';
+})
+
+console.log(text);
+
+// 09. Map.entries()
+
+let text2 = "";
+for (const x of fruits2.entries()) {
+  text2 += x + '; ';
+}
+
+console.log(text2);
+
+// 10. Map.keys()
+
+let text3 = "";
+for (const x of fruits2.keys()) {
+  text3 += x + '; ';
+}
+
+console.log(text3);
+
+// 11. Map.values()
+
+let text4 = "";
+for (const x of fruits2.values()) {
+  text4 += x + '; ';
+}
+
+console.log(text4);
