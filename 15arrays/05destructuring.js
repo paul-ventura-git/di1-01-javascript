@@ -10,7 +10,6 @@ console.log(suv); // expedition
 const [car2, , suv2] = vehicles;
 
 // Destructuring comes in handy when a function returns an array:
-
 function calculate(a, b) {
   const add = a + b;
   const subtract = a - b;
