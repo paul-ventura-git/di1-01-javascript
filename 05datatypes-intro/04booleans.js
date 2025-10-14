@@ -1,10 +1,10 @@
-let activo = true;
+let activo = true; // typeof(activo) --> boolean
 
 let x = 5;
 let y = 5;
 let z = 6;
-//(x == y)       // Returns true
-//(x == z)       // Returns false
+console.log(x == y)       // Returns true
+console.log(x == z)       // Returns false
 
 console.log("¿x es igual a y?");
 console.log(x == y);

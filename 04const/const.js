@@ -1,9 +1,10 @@
 const x = 10;
+console.log(x)
 
 {
     const x = 2;
-    // let x = 9; // ERROR
-    // x=8; ERROR Redeclarando la variable
+    // let x = 9; // ERROR al redeclarar
+    // x=8; //ERROR al reasignar la variable
     // Here x is 2
     console.log("Segunda x: ");
     console.log(x);

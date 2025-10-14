@@ -12,3 +12,4 @@ let answer2 = "He is called 'Johnny'";
 
 // Double quotes inside single quotes:
 let answer3 = 'He is called "Johnny"';
+
