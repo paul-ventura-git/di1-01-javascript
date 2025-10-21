@@ -1,15 +1,15 @@
-// Type conversion
+// Type conversion (Conversión explícita, type casting)
 
-const inputYear = '1991';
+const inputYear = '1991'; // String
 console.log(Number(inputYear), inputYear);
-console.log(Number(inputYear) + 18);
+console.log(Number(inputYear) + 18); // Sumar números
 
-console.log(Number('Jonas'));
+console.log(Number('Jonas')); // Not a number
 console.log(typeof NaN);
 
 console.log(String(23), 23);
 
-// Type coercion
+// Type coercion (Conversión implícita, type coercion)
 
 console.log('Yo tengo ' + 23 + ' años.');
 console.log('23' - '10' - 4);
