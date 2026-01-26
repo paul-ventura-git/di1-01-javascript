@@ -1,5 +1,5 @@
 const tieneLicencia = true; // true = 1; false = 0
-const tieneBuenaVista = false;
+const tieneBuenaVista = true;
 const tieneGasolina = false;
 
 console.log(tieneLicencia && (tieneBuenaVista || tieneGasolina));

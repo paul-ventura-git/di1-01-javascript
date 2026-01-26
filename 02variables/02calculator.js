@@ -9,7 +9,6 @@ function myFunction1(){
     console.log("Input 1: ");
     primer_valor = Number(document.getElementById("first").value);
     console.log(primer_valor);
-    console.log(typeof primer_valor);
 }
 
 //Creamos función para INPUT 2 "Second":

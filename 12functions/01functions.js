@@ -17,10 +17,10 @@ let respuesta = toCelsius(77);
 console.log(respuesta);
 
 // Functions can be called as values
-let text = "The temperature is " + toCelsius(77) + " Celsius";
+let text = "The temperature is " + toCelsius(55) + " Celsius";
 console.log(text);
 
-// Local variables
+// Local variables // bounded variables
 function myFunction2(marcaCarro) {
   // code here CAN use carName
   console.log("La marca de tu carro es: " + marcaCarro);

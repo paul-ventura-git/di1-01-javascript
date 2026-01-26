@@ -14,9 +14,9 @@ document.querySelectorAll(".example");
 /******************************************* */
 
 const myElement = document.getElementById("demo");
-myElement.style.backgroundColor = "red";
+myElement.style.backgroundColor = "lightcoral";
 
-document.getElementById("demo").style.color = "blue";
+document.getElementById("demo").style.color = "green";
 
 //Get all elements with class="example":
 const collection1 = document.getElementsByClassName("example");

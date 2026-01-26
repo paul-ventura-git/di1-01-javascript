@@ -2,7 +2,7 @@
 // se repite mientras la condición sea TRUE
 
 for (let rep = 0; rep <10; rep++) {
-  console.log("Repetición número: "+rep);
+  console.log("Repetición número: " + rep);
 }
 
 for (let i = 1; i <= 5; i++) {

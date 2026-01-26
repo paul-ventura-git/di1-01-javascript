@@ -1,15 +1,15 @@
-const age = '19';
+const age = 18;
 
 if (age === 18) {
-    console.log("Eres adulto (de manera estricta, con tipo de dato)");
+    console.log("Eres adulto (de manera estricta, con valor y con tipo de dato)");
 } else {
     console.log("Tipos de datos distintos.");
 }
 
 if (age == 18) {
-    console.log("Eres adulto (con tipo de dato relajado 'loose')");
+    console.log("Eres adulto (con tipo de dato relajado/débil 'loose')");
 } else {
-    console.log("Son datos distintos")
+    console.log("Son valores distintos")
 }
 
 
