@@ -8,9 +8,11 @@ import myData2 from "../assets/js/database.js"
 
 // Create a Set
 const letters = new Set(["a","b","c"]);
+console.log(letters);
 
 // Create a Set
 const letters2 = new Set();
+console.log(letters2);
 
 // Add Values to the Set
 letters2.add("a");

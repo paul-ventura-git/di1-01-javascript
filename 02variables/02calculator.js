@@ -24,3 +24,21 @@ function myFunction3() {
     document.getElementById("result").innerHTML = resultado;
     console.log(resultado);
 }
+
+function myFunction4() {
+    let resultado = primer_valor - segundo_valor;
+    document.getElementById("result").innerHTML = resultado;
+    console.log(resultado);
+}
+
+function myFunction5() {
+    let resultado = primer_valor * segundo_valor;
+    document.getElementById("result").innerHTML = resultado;
+    console.log(resultado);
+}
+
+function myFunction6() {
+    let resultado = primer_valor / segundo_valor;
+    document.getElementById("result").innerHTML = resultado;
+    console.log(resultado);
+}

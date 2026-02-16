@@ -5,13 +5,14 @@ console.log(x1)
 {
     let x2 = 2; // Redeclarar
     console.log(x2);
-    // let x = 9; // ERROR
+    let x = 9; // ERROR
     x2=8; // Reasignar la variable
     // Here x is 2
     console.log("Tercera x2: ");
     console.log(x2);
 }
 // Here x is 10
+console.log(x2); // ERROR
 
 /*
   Type conversion
