@@ -18,12 +18,12 @@ const myVehicle = {
     color: 'red'
   }
   
-  const updateMyVehicle = {
-    type: 'car',
-    year: 2021, 
-    color: 'yellow'
-  }
-  
-  //repeated properties are overwritten
-  const myUpdatedVehicle = {...myVehicle, ...updateMyVehicle}
-  console.log(myUpdatedVehicle)
+const updateMyVehicle = {
+  type: 'car',
+  year: 2021, 
+  color: 'yellow'
+}
+
+//repeated properties are overwritten
+const myUpdatedVehicle = {...myVehicle, ...updateMyVehicle}
+console.log(myUpdatedVehicle)
