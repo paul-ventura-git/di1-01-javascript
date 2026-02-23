@@ -42,3 +42,5 @@ function myFunction6() {
     document.getElementById("result").innerHTML = resultado;
     console.log(resultado);
 }
+
+

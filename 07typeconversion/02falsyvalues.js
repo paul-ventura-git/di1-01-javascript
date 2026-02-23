@@ -10,14 +10,14 @@ console.log(Boolean(undefined));
 console.log(Boolean(null));
 console.log(Boolean(NaN));
 
-// Sí existe algún valor, true
+// Todo lo demás es truthy, true
 console.log(Boolean('Jonas Smith'));
 console.log(Boolean({}));
 console.log(Boolean([]));
 
 const money = 100;
 
-if (!money) {
+if (money) {
     console.log("No gastes todo tu dinero!");
 } else {
     console.log("Deberías trabajar!");

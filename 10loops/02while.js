@@ -1,11 +1,11 @@
-/*
+
 let rep = 0
 
-while (rep<10) {
+while (rep<5) {
   console.log("WHILE: Repetición número "+rep);
   rep++; // rep = rep + 1 // rep += 1
 }
-*/
+
 
 let text = '' // Acumulador
 let i = 0
@@ -18,3 +18,4 @@ do {
 }
 while (i < 10);
 
+console.log(true == true); //

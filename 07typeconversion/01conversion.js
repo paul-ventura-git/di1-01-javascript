@@ -12,7 +12,7 @@ console.log(String(23), 23);
 // Type coercion (Conversión implícita, type coercion)
 
 console.log('Yo tengo ' + 23 + ' años.');
-console.log('23' - '10' - 4);
+console.log('23' + '10' - 4);
 
 let n = '1' + 12; // 112
 n = n - 1; // 111

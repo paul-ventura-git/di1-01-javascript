@@ -2,7 +2,7 @@
 const myname = 'Paul';
 const mypassword = '';
 
-(myname && mypassword) ? console.log("Hay valores") : console.log("No hay valores");
+(myname && mypassword) ? console.log("Hay valores en ambas variables") : console.log("No hay valores");
 
 // with function calls
 var authenticated = true;

@@ -13,7 +13,7 @@ if (age >= 18) {
     console.log("Eres mayor de edad");
 } else {
     const yearsLeft = 18 - age;
-    console.log(`Aún eres muy joven. Espera ${yearsLeft} año(s).`)
+    console.log(`Aún eres muy joven. Espera ${yearsLeft} año(s) más.`)
 }
 
 // Scope (ambito)
